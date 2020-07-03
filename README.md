@@ -1,24 +1,33 @@
-## Django-rest-ifsc
+##############################################################################################################################
 
-A RESTful API written in Django to get any branch details using ifsc code and find all the branches of a bank in a Indian city.
+bank_ifsc_app_new
 
+##############################################################################################################################
 
-### Setting up
-This project was built with python +3.5
+API written in Django to get 
+Bank Branch details for provide IFSC Code
+Also It finds all the branches of a bank in a Indian city as provided by User.
 
-```bash
-$ virtualenv -p python3 env
-$ source ./env/bin/activate
-$ pip install -r requirements.txt
-$ cd django-rest-ifsc
-$ python manage.py runserver
-```
+##############################################################################################################################
 
-Then head to 
+Settings 
 
-http://localhost:8000/api/ifsc/{ifsccode}
+##############################################################################################################################
 
-http://localhost:8000/api/branches/{city}/{bank-name}
+Used Python +3.6
 
-in your browser to get started.
+pip install -r requirements.txt
+cd django bank_ifsc_app_new
+python manage.py runserver
+
+##############################################################################################################################
+
+Outputs in browsing window
+
+##############################################################################################################################
+
+http://127.0.0.1:8000/api/ifsc/{ifsccode}
+
+http://127.0.0.1:8000/api/branches/{city}/{bank-name}
+
 
