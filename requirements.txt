@@ -12,4 +12,4 @@ whitenoise==3.2
 
 psycopg2==2.7.5
 
-PostgreSQL==10
+PostgreSQL==12.3
