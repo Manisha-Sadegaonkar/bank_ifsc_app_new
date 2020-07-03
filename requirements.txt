@@ -12,6 +12,6 @@ pytz==2017.3
 
 whitenoise==3.2
 
-psycopg2==2.6.2
+psycopg2>=2.7.0
 
 PostgreSQL==12.3
